@@ -17,7 +17,7 @@ namespace App1.ViewModels
 
 		public ItemsViewModel()
 		{
-			Title = "Browse";
+			Title = "BrowseZZ";
 			Items = new ObservableRangeCollection<Item>();
 			LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand());
 
